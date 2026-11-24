@@ -17,6 +17,7 @@ def main() -> None:
     path = os.path.join(out_dir, "entry.txt")
     with open(path, "w", encoding="utf-8", newline="") as f:
         f.write(LINE)
+    print(LINE)
 
 
 if __name__ == "__main__":
